@@ -1,6 +1,4 @@
 # 测试配置文件
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
 server:
   port: 8102
 spring:
@@ -8,9 +6,9 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
-    username: root
-    password: 123456
+    url: 数据库地址
+    username: 账号
+    password: 密码
   # Redis 配置
   # todo 需替换配置
   redis:
@@ -23,7 +21,7 @@ spring:
   # todo 需替换配置
   elasticsearch:
     uris: http://localhost:9200
-    username: root
-    password: 123456
+    username: 账号
+    password:密码
 
 # [编程学习交流圈](https://www.code-nav.cn/) 连接万名编程爱好者，一起优秀！20000+ 小伙伴交流分享、40+ 大厂嘉宾一对一答疑、100+ 各方向编程交流群、4000+ 编程问答参考
